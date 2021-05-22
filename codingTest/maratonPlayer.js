@@ -9,7 +9,7 @@ function solution(participant, completion){
 			answer=participant[i];
 			break;
 		}
-		
+		 
     }
     return answer;
 }

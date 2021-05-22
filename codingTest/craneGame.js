@@ -4,7 +4,7 @@ solution(board, moves) {
     let i;
     let j=0;
     let z=0;
-    
+	
     while(z<moves.length){
         j=moves[z]-1;
         i=0;
@@ -16,8 +16,8 @@ solution(board, moves) {
         else if(board[i][j]==0){
             for(i; i<board.length; i++){    
                 if(board[i][j]!=0){
-                    bucket.push(board[i][j]);
-					board[i][j]=0;
+                   bucket.push(board[i][j]);
+		   board[i][j]=0;
                     break;
                 }
             }

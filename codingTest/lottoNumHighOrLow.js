@@ -55,7 +55,6 @@ function leveltest(score){
 			return 6;
 			break;
 	}
-	
 }
 
 function play(){

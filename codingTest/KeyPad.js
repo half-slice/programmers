@@ -16,7 +16,7 @@ function solution(numbers, hand) {
 			answer=answer+"R";
 			righthand=numbers[i];
 		}
-		else if(numbers[i]==2||numbers[i]==5||numbers[i]==8){
+		else if(numbers[i]==0||numbers[i]==2||numbers[i]==5||numbers[i]==8){
 			let middlenumber = middle(lefthand,righthand,numbers[i],hand)
 			lefthand=middlenumber[0];
 			righthand = middlenumber[1];
